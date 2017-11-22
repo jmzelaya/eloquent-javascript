@@ -7,7 +7,7 @@ var hash = "";
 
 for(var i = 0; hash.length < 7; i++){
   console.log(hash += '#');
-}
+}//END 'Looping a triangle'
 
 console.log( exer + "FizzBuzz" + pg + "41" );
 
@@ -29,5 +29,20 @@ for(var i = 1; i <= 100; i++){
 
   else{
     console.log(i);
+  }
+
+}//END 'FizzBuzz'
+
+console.log(exer + "Chess board" + pg + "41");
+
+hash = "# # # #";
+var size = 8;
+
+for(var i = 0; i < size; i++){
+  if(i % 2 === 1){
+    console.log(hash);
+  }
+  else{
+    console.log(" " + hash);
   }
 }
